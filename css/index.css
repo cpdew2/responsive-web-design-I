@@ -220,8 +220,7 @@ footer {
     display:flex;
     justify-content: center;
     align-items:center;
-    width:70%;
-}
+ }
 
 #features {
   display: flex;
@@ -243,7 +242,7 @@ footer {
 .contact p {
   justify-content:left;
 }
-
+}
 
 @media(max-width:500px){
   .container{
@@ -292,5 +291,4 @@ footer {
     flex-wrap: wrap;
     width:30%;
   }
-}
 }
