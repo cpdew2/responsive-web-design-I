@@ -102,11 +102,13 @@ header .logo {
   margin-top: 25px;
 }
 
+.contall {
+  display: flex;
+}
 
+/* contall */
 
-/* cta */
-
-.cta .cta-text {
+.contall .contall-text {
   display: inline-block;
   vertical-align: top;
   font-size: 77px;
@@ -115,7 +117,7 @@ header .logo {
   padding: 0px 75px;
 }
 
-.cta .cta-text button {
+.contall .contall-text button {
   background: white;
   vertical-align: top;
   margin-top: 6px;
@@ -125,12 +127,12 @@ header .logo {
   cursor: pointer;
 }
 
-.cta .cta-text button:hover {
+.contall .contall-text button:hover {
   background: black;
   color: white;
 }
 
-.cta img {
+.contall img {
   display: inline-block;
   margin-top: 69px;
 }
@@ -212,11 +214,11 @@ footer {
   flex-wrap: wrap-reverse;
 }
 
-  .cta img {
+  .contall img {
     display: none;
 }
 
-  .cta-text .h1 {
+  .contall-text .h1 {
     display:flex;
     justify-content: center;
     align-items:center;
@@ -265,11 +267,11 @@ footer {
   flex-wrap: wrap-reverse;
 }
 
-  .cta img {
+  .contall img {
     display: none;
 }
 
-  .cta-text .h1 {
+  .contall-text .h1 {
     display:flex;
     justify-content: center;
     align-items:center;
@@ -277,7 +279,8 @@ footer {
   }
   nav a {
     display:flex;
-    justify-content:center;
+    flex-wrap: wrap;
+    justify-items:center;
   }
 
   #features {
@@ -290,5 +293,10 @@ footer {
     display: flex;
     flex-wrap: wrap;
     width:30%;
+  }
+
+  .middle-img {
+    width: 30%;
+  
   }
 }
